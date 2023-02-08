@@ -6,18 +6,15 @@ A Dashboard built with dash mantine components library
 
 # Demo
 
-
 https://user-images.githubusercontent.com/45914161/217640821-c8a8ba3a-9d1c-4096-81c2-540d80a83e90.mp4
-
-
-
 
 ## Technology Stack 
 
 1. Python 
-2. Streamlit
+2. Plotly Dash
 3. Pandas
 4. Plotly
+5. Dash Mantine Components
 
 # How to Run
 
@@ -36,9 +33,9 @@ $ source env/Source/activate
 ```
 $ pip install -r requirements.txt
 ```
-- Run: Streamlit run index.py
+- Run index.py file
 
 ## Contact
 
-For any feedback or queries, please reach out to me at [suwaidaslam@gmail.com](suwaidaslam@gmail.com) or My Linkedin @suwaidaslam.
+For any feedback or queries, you can reach out to me at [suwaidaslam@gmail.com](suwaidaslam@gmail.com) or My Linkedin @suwaidaslam.
 
