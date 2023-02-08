@@ -7,7 +7,6 @@ from components import *
 
 
 
-
 class AppCallback:
     def __init__(self):
         pass
@@ -210,7 +209,7 @@ class AppCallback:
                         return response
                         
 
-                conn = Neo4jConnection(uri="neo4j+s://b4a3ea40.databases.neo4j.io", user="neo4j", pwd="jwscU6G8SHlemI9ZMPMNj6mF2eW0gsqO5c4_XJiWH-g")
+                conn = Neo4jConnection(uri="neo4j+s://b4a3ea40.databases.neo4j.io", user="user", pwd="pass")
                 query_string = '''MATCH p=(m)-[r:MessageSent]-(n) where n.numMessages>'''+str(conversation_size)+''' RETURN p LIMIT '''+str(edges_number)
                 nodes=[]
                 simple_elements=[]
