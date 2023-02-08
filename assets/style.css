@@ -1,0 +1,49 @@
+body {
+    background-color: #F1F1F1;
+    color: #111111;
+    margin: 3rem 2rem;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.025rem;
+}
+
+/* #interval {
+    display: none;
+} */
+/* 
+
+#content {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 0.7rem 1rem 0rem;
+  background-color: #111111;
+}
+
+@media screen and (max-width: 700px) {
+  #content {margin-left: 0;}
+} */
+
+.lijc_analytics_section {
+  margin-top: 2%;
+  padding-top: 2%;
+  border-top: 1px solid skyblue;
+}
+
+
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4rem;
+  /* padding: 1rem 2rem; */
+  margin-bottom: 10px;
+}
+
+
+.logo_img {
+  position: relative;
+  height: 3rem;
+  width: auto;
+}
